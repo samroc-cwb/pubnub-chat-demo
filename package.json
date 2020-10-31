@@ -33,6 +33,7 @@
   "scripts": {
     "start": "node setup/populate.js --quick-test && react-scripts start",
     "build": "node setup/populate.js --quick-test && react-scripts build",
+    "build-static": "react-scripts build",
     "test": "react-scripts test --env=jsdom-fourteen",
     "setup": "node setup/populate.js",
     "lint:functions": "eslint functions/src/**/*.ts -c functions/.eslintrc",
